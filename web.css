@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #e5f5f3;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: linear-gradient(90deg, #2a9d8f, #264653);
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .profile-icon {
+    font-size: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 80px 20px 40px;
+    background: linear-gradient(to bottom right, #3cba92, #4a7b9d);
+    color: white;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .search-bar input {
+    padding: 12px;
+    width: 70%;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .search-bar button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    background: #2a9d8f;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .topics {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 60px 40px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  .white-card {
+    background: white;
+  }
+  
+  .blue-card {
+    background: #d1f4f0;
+    position: relative;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .tag {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: white;
+  }
+  
+  .blue {
+    background: #3b82f6;
+  }
+  
+  .purple {
+    background: #7c3aed;
+  }
+  
+  .card img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .learn-btn {
+    margin-top: 15px;
+    background: #2a9d8f;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .share {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
